@@ -4,6 +4,7 @@ import Landing from "./pages/landing/landing";
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
 import About from "./pages/About/about";
+import NotFound from "./pages/notFound/notfound";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />}></Route>
         <Route path="/about" element={<About />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </BrowserRouter>
