@@ -49,7 +49,7 @@ a {
   width: 70%;
 }
 
-.landing-1 > div > a {
+.quote-button {
   width: 20%;
   border: thin solid var(--primary);
   display: flex;
@@ -59,10 +59,35 @@ a {
   text-align: center;
   height: 100%;
   color: white;
-  font-size: 1rem;
-  border-radius: 100px;
+  font-size: 1.2rem;
   background-color: var(--primary);
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+  border-bottom-left-radius: 13px;
+  border-top-left-radius: 2.5px;
 }
+
+.work-button {
+  width: 20%;
+  border: 2px solid var(--primary);
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  color: var(--primary);
+  font-size: 1.2rem;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+  border-bottom-left-radius: 13px;
+  border-top-left-radius: 2.5px;
+}
+
+/* .landing-1 > div > a:hover {
+  border: 5px solid var(--third);
+} */
 
 #landing-2 {
   width: 100%;
@@ -91,6 +116,7 @@ a {
 
 #landing-2-2 {
   height: 50vh;
+  margin-top: 10vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -121,6 +147,22 @@ a {
   width: 60%;
   color: white;
   font-size: 1rem;
+  line-height: 2rem;
+}
+
+#partner-logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 3vh;
+}
+
+.partner-logo {
+  border: thin solid white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 #partner-desc > button {
@@ -128,7 +170,8 @@ a {
   height: 15%;
   color: var(--primary);
   border: thin solid transparent;
-  font-size: 1rem;
+  background-color: white;
+  font-size: 1.2rem;
   border-top-right-radius: 13px;
   border-bottom-right-radius: 13px;
   border-bottom-left-radius: 13px;
@@ -141,6 +184,7 @@ a {
 #landing-2-3 {
   height: 20vh;
   margin-bottom: 10vh;
+  margin-top: 10vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -217,13 +261,13 @@ a {
 }
 
 #landing-3-2 {
-  height: 120vh;
+  height: 150vh;
   border: 0.3vw solid blue;
 }
 
 #landing-3-1 {
   width: 50%;
-  height: 120vh;
+  height: 150vh;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -232,7 +276,7 @@ a {
 
 #landing-3-3 {
   width: 50%;
-  height: 120vh;
+  height: 150vh;
 }
 
 .services-cont {
@@ -259,11 +303,14 @@ a {
 .services-cont > button {
   width: 50%;
   height: 20%;
-  border-radius: 100px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 2.5px;
   border: thin solid var(--primary);
   background-color: var(--primary);
   color: white;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .services-cont > * {

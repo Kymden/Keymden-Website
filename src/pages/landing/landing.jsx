@@ -18,8 +18,12 @@ export default function Landing() {
         </p>
 
         <div>
-          <Link to="">Request A Quote</Link>
-          <Link to="">How We Work</Link>
+          <Link to="" className="quote-button">
+            Request A Quote
+          </Link>
+          <Link to="" className="work-button">
+            How We Work
+          </Link>
         </div>
       </section>
 
@@ -60,8 +64,8 @@ export default function Landing() {
           </span>
 
           <span className="brag-cont">
-            <h4>6 Years +</h4>
-            <p>Experience</p>
+            <h4>30 +</h4>
+            <p>Partners</p>
           </span>
         </div>
       </div>
@@ -95,6 +99,7 @@ export default function Landing() {
               </p>
               <button>Skill Up</button>
             </span>
+            <span className="services-cont"></span>
           </div>
 
           <div id="landing-3-2"></div>
@@ -109,7 +114,21 @@ export default function Landing() {
               </p>
               <button>Skill Up</button>
             </span>
+
             <span className="services-cont"></span>
+
+            <span className="services-cont">
+              <h3>Technical support</h3>
+              <p>
+                Whether youre an individual, a group or a coporate we are ready
+                to equip you with tech skills for you. We focus on equipping you
+                or your team with industry based skills.
+              </p>
+              <button>Contact Us</button>
+            </span>
+
+            <span className="services-cont"></span>
+
             <span className="services-cont">
               <h3>Technical support</h3>
               <p>
