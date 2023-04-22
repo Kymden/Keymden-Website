@@ -1,12 +1,17 @@
 import { Link } from "react-router-dom";
 import "./header.css";
+import logo from "../../assets/keymden.png";
 
 export default function Header() {
   return (
     <header>
       <div>
         <Link to="/" className="logo-button">
-          Logo
+          <img src={logo} alt="logo" />
+          <p>
+            Keymden <br />
+            Solutions
+          </p>
         </Link>
 
         <span>

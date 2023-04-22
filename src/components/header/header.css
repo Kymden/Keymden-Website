@@ -24,7 +24,6 @@ header > div > span {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  border: thin solid blue;
 }
 
 header > div > span > a {
@@ -55,15 +54,17 @@ header > div a {
 }
 
 .logo-button {
-  width: 15%;
+  width: 20%;
   height: 100%;
-  border: thin solid blue;
   color: var(--primary);
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  text-align: center;
+  justify-content: flex-start;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.logo-button > img {
+  height: 100%;
 }
