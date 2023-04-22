@@ -93,8 +93,6 @@ a {
 #landing-3 {
   margin-top: 3vh;
   margin-bottom: 3vh;
-  border: thin solid black;
-  /* background-color: var(--primary); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -103,7 +101,7 @@ a {
 
 #landing-3 > * {
   width: 100%;
-  border: thin solid black;
+  height: max-content;
 }
 
 #landing-3-head {
@@ -114,13 +112,81 @@ a {
   justify-content: space-evenly;
 }
 
+#landing-3-head > h2 {
+  font-size: 2.5rem;
+  color: var(--primary);
+}
+
+#landing-3-head > p {
+  font-size: 1rem;
+}
+
 #landing-3-body {
   margin-top: 2vh;
-  height: 5vh;
+  height: max-content;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+#landing-3-body > * {
+  height: 100%;
+}
+
+#landing-3-2 {
+  height: 120vh;
+  border: .3vw solid blue;
+}
+
+#landing-3-1 {
+  width: 50%;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+#landing-3-3 {
+  width: 50%;
+  height: 120vh;
+}
+
+.services-cont {
+  width: 60%;
+  height: 30vh;
+  /* border: thin solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.services-cont > * {
+  margin-left: 1.5vw;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+}
+
+.services-cont > h3 {
+  font-size: 2rem;
+  color: var(--primary);
+  margin-left: 1.5vw;
+}
+
+.services-cont > button {
+  width: 50%;
+  height: 20%;
+  border-radius: 100px;
+  border: thin solid var(--primary);
+  background-color: var(--primary);
+  color: white;
+  font-size: 1rem;
+}
+
+.services-cont > * {
+  margin-left: 1.5vw;
 }
 
 @media only screen and (max-width: 767px) and (min-width: 480px) {

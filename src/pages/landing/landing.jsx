@@ -31,14 +31,57 @@ export default function Landing() {
 
       <section id="landing-3">
         <div id="landing-3-head">
-          <h2>Our services</h2>
+          <h2>Services & Products</h2>
           <p>We provide end to end solutions</p>
         </div>
 
         <div id="landing-3-body">
-          <div id="landing-3-1"></div>
+          <div id="landing-3-1">
+            <span className="services-cont"></span>
+            <span className="services-cont">
+              <h3>Tech skills</h3>
+              <p>
+                Whether youre an individual, a group or a coporate we are ready
+                to equip you with tech skills for you. We focus on equipping you
+                or your team with industry based skills.
+              </p>
+              <button>Skill Up</button>
+            </span>
+
+            <span className="services-cont"></span>
+            <span className="services-cont">
+              <h3>Tech skills</h3>
+              <p>
+                Whether youre an individual, a group or a coporate we are ready
+                to equip you with tech skills for you. We focus on equipping you
+                or your team with industry based skills.
+              </p>
+              <button>Skill Up</button>
+            </span>
+            
+          </div>
           <div id="landing-3-2"></div>
-          <div id="landing-3-3"></div>
+          <div id="landing-3-3">
+            <span className="services-cont">
+              <h3>Tech skills</h3>
+              <p>
+                Whether youre an individual, a group or a coporate we are ready
+                to equip you with tech skills for you. We focus on equipping you
+                or your team with industry based skills.
+              </p>
+              <button>Skill Up</button>
+            </span>
+            <span className="services-cont"></span>
+            <span className="services-cont">
+              <h3>Tech skills</h3>
+              <p>
+                Whether youre an individual, a group or a coporate we are ready
+                to equip you with tech skills for you. We focus on equipping you
+                or your team with industry based skills.
+              </p>
+              <button>Skill Up</button>
+            </span>
+          </div>
         </div>
       </section>
     </main>
