@@ -27,7 +27,7 @@ header > div > span {
 header > div > span > a {
   margin-left: 1vw;
   margin-right: 1vw;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: var(--primary);
 }
 
@@ -41,14 +41,17 @@ header > div a {
   width: 13%;
   height: 60%;
   border: thin solid var(--primary);
-  border-radius: 100px;
   background-color: var(--primary);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+  border-bottom-left-radius: 13px;
+  border-top-left-radius: 2.5px;
 }
 
 .logo-button {

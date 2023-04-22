@@ -1,5 +1,79 @@
 footer {
   width: 100%;
   background-color: var(--primary);
-  height: 50vh;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer > div {
+  width: 90%;
+  border: thin solid white;
+}
+
+#foot-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 43vh;
+  margin-top: 7.5vh;
+  margin-bottom: 2.5vh;
+}
+
+#foot-2 {
+  height: 7vh;
+  margin-top: 2.5vh;
+  margin-bottom: 5vh;
+  border-radius: 20px;
+  background-color: var(--third);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#foot-2 > span {
+  height: 100%;
+  border: thin solid white;
+}
+
+#foot-2-foot {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#foot-2-head {
+  width: 20%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1rem;
+  color: white;
+}
+
+#foot-2-body {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#foot-2-body > * {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+#foot-2-foot > * {
+  font-size: 1.8rem;
+  color: white;
 }
