@@ -22,6 +22,25 @@ export default function Landing() {
           <Link to="">How We Work</Link>
         </div>
       </section>
+
+      <div id="landing-2">
+        <div id="landing-2-1"></div>
+        <div id="landing-2-2"></div>
+        <div id="landing-2-3"></div>
+      </div>
+
+      <section id="landing-3">
+        <div id="landing-3-head">
+          <h2>Our services</h2>
+          <p>We provide end to end solutions</p>
+        </div>
+
+        <div id="landing-3-body">
+          <div id="landing-3-1"></div>
+          <div id="landing-3-2"></div>
+          <div id="landing-3-3"></div>
+        </div>
+      </section>
     </main>
   );
 }

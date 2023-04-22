@@ -65,6 +65,64 @@ a {
   background-color: var(--primary);
 }
 
+#landing-2 {
+  width: 100%;
+  margin-top: 13vh;
+  margin-bottom: 3vh;
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#landing-2 > * {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  border: thin solid white;
+  width: 90%;
+}
+
+#landing-2-1 {
+  height: 30vh;
+  border-radius: 20px;
+  margin-top: -10vh;
+  border: thin solid blue;
+}
+
+#landing-3 {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  border: thin solid black;
+  /* background-color: var(--primary); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#landing-3 > * {
+  width: 100%;
+  border: thin solid black;
+}
+
+#landing-3-head {
+  margin-bottom: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#landing-3-body {
+  margin-top: 2vh;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 @media only screen and (max-width: 767px) and (min-width: 480px) {
   /* Styles for phones and tablets */
 
