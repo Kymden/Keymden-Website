@@ -64,3 +64,21 @@ a {
   border-radius: 100px;
   background-color: var(--primary);
 }
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  /* Styles for phones and tablets */
+
+  #landing > section {
+    width: 98%;
+    border: thin solid black;
+  }
+
+  .landing-1 > div {
+    width: 100%;
+    height: 6vh;
+  }
+
+  .landing-1 > div > a {
+    width: 33%;
+  }
+}
