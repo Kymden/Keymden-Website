@@ -19,17 +19,18 @@ header > div {
 }
 
 header > div > span {
-  width: 80%;
+  width: 60%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
+  border: thin solid blue;
 }
 
 header > div > span > a {
   margin-left: 1vw;
   margin-right: 1vw;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--primary);
 }
 
@@ -37,4 +38,32 @@ header > div a {
   font-size: 1rem;
   color: white;
   text-decoration: none;
+}
+
+.contact-button {
+  width: 13%;
+  height: 60%;
+  border: thin solid var(--primary);
+  border-radius: 100px;
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.logo-button {
+  width: 15%;
+  height: 100%;
+  border: thin solid blue;
+  color: var(--primary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
