@@ -54,8 +54,8 @@ export default function Landing() {
           </span>
 
           <span className="brag-cont">
-            <h4>6 Years +</h4>
-            <p>Experience</p>
+            <h4>25 +</h4>
+            <p>Team Members</p>
           </span>
 
           <span className="brag-cont">
@@ -79,7 +79,7 @@ export default function Landing() {
         <div id="landing-3-body">
           <div id="landing-3-1">
             <span className="services-cont"></span>
-            <span className="services-cont">
+            <span className="services-cont" id="service-cont-1">
               <h3>Management Systems</h3>
               <p>
                 Whether youre an individual, a group or a coporate we are ready
@@ -90,7 +90,7 @@ export default function Landing() {
             </span>
 
             <span className="services-cont"></span>
-            <span className="services-cont">
+            <span className="services-cont" id="service-cont-1">
               <h3>API development and intergarions</h3>
               <p>
                 Whether youre an individual, a group or a coporate we are ready
@@ -105,7 +105,7 @@ export default function Landing() {
           <div id="landing-3-2"></div>
 
           <div id="landing-3-3">
-            <span className="services-cont">
+            <span className="services-cont" id="service-cont-2">
               <h3>Tech skills & education</h3>
               <p>
                 Whether youre an individual, a group or a coporate we are ready
@@ -117,7 +117,7 @@ export default function Landing() {
 
             <span className="services-cont"></span>
 
-            <span className="services-cont">
+            <span className="services-cont" id="service-cont-2">
               <h3>Technical support</h3>
               <p>
                 Whether youre an individual, a group or a coporate we are ready
@@ -129,7 +129,7 @@ export default function Landing() {
 
             <span className="services-cont"></span>
 
-            <span className="services-cont">
+            <span className="services-cont" id="service-cont-2">
               <h3>Technical support</h3>
               <p>
                 Whether youre an individual, a group or a coporate we are ready
