@@ -11,7 +11,6 @@ a {
 
 #landing > section {
   width: 90%;
-  border: thin solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,8 +97,50 @@ a {
   justify-content: space-between;
 }
 
+#landing-2-2 > * {
+  width: 50%;
+  height: 100%;
+  /* border: thin solid white; */
+}
+
+#partner-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#partner-desc > h4 {
+  width: 100%;
+  height: 20%;
+  color: white;
+  font-size: 3rem;
+}
+
+#partner-desc > p {
+  width: 60%;
+  color: white;
+  font-size: 1rem;
+}
+
+#partner-desc > button {
+  width: 30%;
+  height: 15%;
+  color: var(--primary);
+  border: thin solid transparent;
+  font-size: 1rem;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+  border-bottom-left-radius: 13px;
+  border-top-left-radius: 2.5px;
+}
+
+#partner-logos {
+}
+
 #landing-2-3 {
   height: 20vh;
+  margin-bottom: 10vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -234,7 +275,6 @@ a {
 
   #landing > section {
     width: 98%;
-    border: thin solid black;
   }
 
   .landing-1 > div {

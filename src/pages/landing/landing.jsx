@@ -26,7 +26,22 @@ export default function Landing() {
       <div id="landing-2">
         {/* <div id="landing-2-1"></div> */}
         <div id="landing-2-2">
-          <span></span>
+          <span id="partner-desc">
+            <h4>Companies That Have Partnered with us</h4>
+            <p>
+              Meet some of the organiztions that have trusted with us in the
+              past to conduct business with them.
+            </p>
+            <button className="partners-button">Be Our Next Partner</button>
+          </span>
+
+          <span id="partner-logos">
+            <span className="partner-logo"></span>
+            <span className="partner-logo"></span>
+            <span className="partner-logo"></span>
+            <span className="partner-logo"></span>
+            <span className="partner-logo"></span>
+          </span>
         </div>
         <div id="landing-2-3">
           <span className="brag-cont">
