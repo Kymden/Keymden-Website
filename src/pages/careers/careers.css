@@ -1,0 +1,17 @@
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+    /* Styles for phones and tablets */
+    #notfound > div {
+      width: 98%;
+    }
+
+    #notfound > div > a {
+      width: 30%;
+      height: 7vh;
+    }
+    #notfound > div > img {
+      color: var(--primary);
+      font-size: 2.5rem;
+      width: 60%;
+      /* height: 60%; */
+    }
+  }
