@@ -82,22 +82,22 @@ export default function Landing() {
             <span className="services-cont" id="service-cont-1">
               <h3>Management Systems</h3>
               <p>
-                Whether youre an individual, a group or a coporate we are ready
-                to equip you with tech skills for you. We focus on equipping you
-                or your team with industry based skills.
+                Whether its an ERP or HRM systems we have experience. Manage
+                your business with our cutting-edge management systems
+                empowering you to achieve your goals with ease.
               </p>
-              <button>Skill Up</button>
+              <button>Learn More</button>
             </span>
 
             <span className="services-cont"></span>
             <span className="services-cont" id="service-cont-1">
-              <h3>API development and intergarions</h3>
+              <h3>API Intergrations</h3>
               <p>
-                Whether youre an individual, a group or a coporate we are ready
-                to equip you with tech skills for you. We focus on equipping you
-                or your team with industry based skills.
+                We optimize API performance, create seamless integrations and
+                enhance user experience, working with various platforms to
+                streamline your business processes.
               </p>
-              <button>Skill Up</button>
+              <button>Learn More</button>
             </span>
             <span className="services-cont"></span>
           </div>
@@ -108,11 +108,12 @@ export default function Landing() {
             <span className="services-cont" id="service-cont-2">
               <h3>Tech skills & education</h3>
               <p>
-                Whether youre an individual, a group or a coporate we are ready
-                to equip you with tech skills for you. We focus on equipping you
-                or your team with industry based skills.
+                We offer comprehensive courses in machine learning, data
+                analysis, statistics, and software engineering. Our programs are
+                designed to equip you with the latest industry-based skills and
+                knowledge, to help you succeed in your career.
               </p>
-              <button>Skill Up</button>
+              <button>Learn More</button>
             </span>
 
             <span className="services-cont"></span>
@@ -120,23 +121,24 @@ export default function Landing() {
             <span className="services-cont" id="service-cont-2">
               <h3>Technical support</h3>
               <p>
-                Whether youre an individual, a group or a coporate we are ready
-                to equip you with tech skills for you. We focus on equipping you
-                or your team with industry based skills.
+                Our company provides reliable technical hardware support to
+                ensure your technology infrastructure runs efficiently and
+                effectively, minimizing downtime and maximizing productivity.
               </p>
-              <button>Contact Us</button>
+              <button>Learn More</button>
             </span>
 
             <span className="services-cont"></span>
 
             <span className="services-cont" id="service-cont-2">
-              <h3>Technical support</h3>
+              <h3>Insunity Fund</h3>
               <p>
-                Whether youre an individual, a group or a coporate we are ready
-                to equip you with tech skills for you. We focus on equipping you
-                or your team with industry based skills.
+                We provide funding options for startups, offering a range of
+                investment opportunities to help turn your ideas into reality.
+                Our team of experts can guide you through the process, providing
+                support and resources to help you succeed.
               </p>
-              <button>Contact Us</button>
+              <button>Learn More</button>
             </span>
           </div>
         </div>
