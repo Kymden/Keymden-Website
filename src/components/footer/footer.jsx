@@ -34,7 +34,7 @@ export default function Footer() {
         <span className="footer-info">
           <h4>Company</h4>
           <Link to="/">About Us</Link>
-          <Link to="/">Careers</Link>
+          <Link to="/careers">Careers</Link>
           <Link to="/">Press</Link>
           <Link to="/">News</Link>
           <Link to="/">Contact</Link>

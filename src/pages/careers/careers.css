@@ -1,17 +1,35 @@
-@media only screen and (max-width: 767px) and (min-width: 480px) {
-    /* Styles for phones and tablets */
-    #notfound > div {
-      width: 98%;
-    }
+#careers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
 
-    #notfound > div > a {
-      width: 30%;
-      height: 7vh;
-    }
-    #notfound > div > img {
-      color: var(--primary);
-      font-size: 2.5rem;
-      width: 60%;
-      /* height: 60%; */
-    }
-  }
+#careers > section {
+  width: 90%;
+  border: thin solid black;
+}
+
+#careers-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 30vh;
+}
+
+#careers-1 > button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  width: 13%;
+  height: 6vh;
+  
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  /* Styles for phones and tablets */
+}
