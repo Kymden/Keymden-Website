@@ -19,14 +19,42 @@ export default function Footer() {
           <button type="submit">Subscribe</button>
         </form>
       </div>
-      
+
       <div id="foot-1">
-        <span>
-          <span className="footer-info"></span>
-          <span className="footer-info"></span>
-          <span className="footer-info"></span>
-          <span className="footer-info"></span>
-          <span className="footer-info"></span>
+        <span className="footer-information"></span>
+
+        <span className="footer-info">
+          <h4>Products and Services</h4>
+          <Link to="/">Innoteq</Link>
+          <Link to="/">Insunity Fund</Link>
+          <Link to="/">Skill-Up</Link>
+          <Link to="/">Hard Support</Link>
+        </span>
+
+        <span className="footer-info">
+          <h4>Company</h4>
+          <Link to="/">About Us</Link>
+          <Link to="/">Careers</Link>
+          <Link to="/">Press</Link>
+          <Link to="/">News</Link>
+          <Link to="/">Contact</Link>
+        </span>
+
+        <span className="footer-info">
+          <h4>Resources</h4>
+          <Link to="/">Blog</Link>
+          <Link to="/">Newsletter</Link>
+          <Link to="/">Events</Link>
+          <Link to="/">Support</Link>
+        </span>
+
+        <span className="footer-info">
+          <h4>Legal</h4>
+          <Link to="/">Terms</Link>
+          <Link to="/">Privacy</Link>
+          <Link to="/">Cookies</Link>
+          <Link to="/">Licences</Link>
+          <Link to="/">Contact</Link>
         </span>
       </div>
 
