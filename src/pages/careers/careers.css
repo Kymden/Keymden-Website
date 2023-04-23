@@ -6,8 +6,10 @@
 }
 
 #careers > section {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
   width: 90%;
-  border: thin solid black;
+  /* border: thin solid black; */
 }
 
 #careers-1 {
@@ -15,7 +17,13 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  height: 30vh;
+  min-height: 30vh;
+  border-bottom: thin solid var(--third);
+}
+
+#careers-1 > * {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
 }
 
 #careers-1 > button {
@@ -27,7 +35,47 @@
   font-size: 1.2rem;
   width: 13%;
   height: 6vh;
-  
+  background-color: white;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  border-top-right-radius: 12.5px;
+  border-bottom-right-radius: 12.5px;
+  border-bottom-left-radius: 12.5px;
+  border-top-left-radius: 2.5px;
+}
+
+#careers-1 > h1 {
+  font-size: 4rem;
+}
+#careers-1 > p {
+  width: 60%;
+  font-size: 1.2rem;
+}
+
+#careers-1 > div {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+#careers-1 > div > button {
+  width: max-content;
+  height: 100%;
+  border: 2px solid var(--primary);
+  background-color: white;
+  color: var(--primary);
+  font-size: 1.2rem;
+  border-top-right-radius: 12.5px;
+  border-bottom-right-radius: 12.5px;
+  border-bottom-left-radius: 12.5px;
+  border-top-left-radius: 2.5px;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  margin-right: 1vw;
 }
 
 @media only screen and (max-width: 767px) and (min-width: 480px) {

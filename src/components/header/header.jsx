@@ -18,6 +18,7 @@ export default function Header() {
           <Link to="/services">Services</Link>
           <Link to="/projects">Projects</Link>
           <Link to="/about">About</Link>
+          <Link to="/careers">Careers</Link>
         </span>
 
         <Link to="/contact" className="contact-button">
