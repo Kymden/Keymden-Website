@@ -7,8 +7,8 @@ export default function Landing() {
       <section className="landing-1">
         <p className="landing-par1">WELCOME TO KEYMDEN SOLUTIONS</p>
         <h1>
-          Simplify Your Digital <br />
-          Adoption
+          Simplify <strong>Your</strong> Digital <br />
+          <strong>Adoption</strong>
         </h1>
 
         <p className="landing-par">

@@ -8,6 +8,9 @@
 a {
   text-decoration: none;
 }
+button {
+  cursor: pointer;
+}
 
 #landing > section {
   width: 90%;
@@ -268,9 +271,13 @@ a {
 }
 
 #landing-3-2 {
-  height: 150vh;
+  height: 170vh;
   border-radius: 100px;
   border: 0.3vw solid var(--third);
+}
+
+strong {
+  color: var(--primary);
 }
 
 #landing-3-1 {
@@ -288,7 +295,7 @@ a {
 }
 
 .services-cont {
-  width: 60%;
+  width: 70%;
   height: 30vh;
   display: flex;
   flex-direction: column;
@@ -323,7 +330,7 @@ a {
 }
 
 .services-cont > button {
-  width: 40%;
+  width: 30%;
   height: 20%;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
