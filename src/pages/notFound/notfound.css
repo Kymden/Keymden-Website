@@ -1,0 +1,51 @@
+#notfound {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#notfound > div {
+  border: thin solid black;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#notfound > div > * {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+#notfound > div > h2 {
+  color: var(--primary);
+  font-size: 2.5rem;
+}
+
+#notfound > div > p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: grey;
+}
+
+#notfound > div > a {
+  width: 13%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 7vh;
+  background-color: var(--primary);
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+  border-bottom-left-radius: 13px;
+  border-top-left-radius: 2.5px;
+}
