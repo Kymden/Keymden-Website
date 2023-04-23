@@ -1,4 +1,5 @@
-// import React from "react";
+import { TiTime, FaMapMarkerAlt } from "react-icons/all";
+// import { FiChevronUpRight } from "react-icons/fi";
 
 import "./careers.css";
 
@@ -28,7 +29,111 @@ export default function Careers() {
         </div>
       </section>
 
-      <section className="careers-2"></section>
+      <div className="careers-2">
+        <span className="careers-2-1">
+          <h4>Software Engineer</h4>
+          <p>
+            We're looking for a mid-level software engineer to join our team
+          </p>
+          <span>
+            <button className="job-button">
+              <TiTime />
+              <p>Full-Time</p>
+            </button>
+
+            <button className="job-button">
+              <FaMapMarkerAlt />
+              <p>Hybrid</p>
+            </button>
+          </span>
+        </span>
+
+        <span className="careers-2-2">
+          <button>
+            <p>Apply</p>
+          </button>
+        </span>
+      </div>
+
+      <div className="careers-2">
+        <span className="careers-2-1">
+          <h4>Software Engineer</h4>
+          <p>
+            We're looking for a mid-level software engineer to join our team
+          </p>
+          <span>
+            <button className="job-button">
+              <TiTime />
+              <p>Full-Time</p>
+            </button>
+
+            <button className="job-button">
+              <FaMapMarkerAlt />
+              <p>Hybrid</p>
+            </button>
+          </span>
+        </span>
+
+        <span className="careers-2-2">
+          <button>
+            <p>Apply</p>
+          </button>
+        </span>
+      </div>
+
+      <div className="careers-2">
+        <span className="careers-2-1">
+          <h4>Software Engineer</h4>
+          <p>
+            We're looking for a mid-level software engineer to join our team
+          </p>
+          <span>
+            <button className="job-button">
+              <TiTime />
+              <p>Full-Time</p>
+            </button>
+
+            <button className="job-button">
+              <FaMapMarkerAlt />
+              <p>Hybrid</p>
+            </button>
+          </span>
+        </span>
+
+        <span className="careers-2-2">
+          <button>
+            <p>Apply</p>
+          </button>
+        </span>
+      </div>
+
+      <div className="careers-2">
+        <span className="careers-2-1">
+          <h4>Software Engineer</h4>
+          <p>
+            We're looking for a mid-level software engineer to join our team
+          </p>
+          <span>
+            <button className="job-button">
+              <TiTime />
+              <p>Full-Time</p>
+            </button>
+
+            <button className="job-button">
+              <FaMapMarkerAlt />
+              <p>Hybrid</p>
+            </button>
+          </span>
+        </span>
+
+        <span className="careers-2-2">
+          <button>
+            <p>Apply</p>
+          </button>
+        </span>
+      </div>
+
+      <section id="careers-3"></section>
     </main>
   );
 }
