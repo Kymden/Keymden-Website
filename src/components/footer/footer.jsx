@@ -8,7 +8,7 @@ export default function Footer() {
     <footer>
       <div id="foot-0">
         <span id="foot-0-head">
-          <h3>Get notified of new products and solutions.</h3>
+          <h3>Signup for our newsletter.</h3>
           <p>
             Stay up to date with the latest news, announcements, and articles.
           </p>

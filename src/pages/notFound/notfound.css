@@ -14,6 +14,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10vh;
 }
 
 #notfound > div > * {
@@ -54,4 +55,22 @@
   border-bottom-right-radius: 13px;
   border-bottom-left-radius: 13px;
   border-top-left-radius: 2.5px;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  /* Styles for phones and tablets */
+  #notfound > div {
+    width: 98%;
+  }
+
+  #notfound > div > a {
+    width: 30%;
+    height: 7vh;
+  }
+  #notfound > div > img {
+    color: var(--primary);
+    font-size: 2.5rem;
+    width: 60%;
+    /* height: 60%; */
+  }
 }
