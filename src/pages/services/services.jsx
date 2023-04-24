@@ -208,9 +208,7 @@ export default function Services() {
           Learn how you can partner with them.
         </p>
       </section>
-      {/* <section className="services-2"></section>
-      <section className="services-3"></section>
-      <section className="services-2"></section> */}
+  
     </main>
   );
 }
