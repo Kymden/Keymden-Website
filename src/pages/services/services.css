@@ -115,7 +115,7 @@
 }
 
 .course-cont {
-  width: 23%;
+  width: 24%;
   height: 100%;
   border: thin solid black;
   display: flex;
@@ -126,12 +126,10 @@
 
 .course-cont > * {
   width: 100%;
-  border: thin solid black;
 }
 .course-cont > div {
   width: 100%;
   height: 50%;
-  border: thin solid black;
   background-image: url(https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 
@@ -192,11 +190,12 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .course-card-foot > p {
   font-size: 0.8rem;
   color: grey;
   border: thin solid black;
-  width: 30%;
+  width: 32%;
   width: max-content;
   display: flex;
   flex-direction: row;

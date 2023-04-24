@@ -66,9 +66,116 @@ export default function Services() {
               </span>
             </span>
 
-            <span className="course-cont"></span>
-            <span className="course-cont"></span>
-            <span className="course-cont"></span>
+            <span className="course-cont">
+              <div />
+              <span>
+                <span className="course-card-header">
+                  <p>UI/UX Design</p>
+                  <span>
+                    <FaStar />
+                    <p>4.5</p>
+                  </span>
+                </span>
+
+                <span className="course-card-body">
+                  <p>UI/UX Design for Beginners</p>
+                  <p>$200</p>
+                </span>
+
+                <span className="course-card-foot">
+                  <p>
+                    <AiOutlineClockCircle />
+                    50hr 30min
+                  </p>
+                  <p>
+                    <BiVideo />
+                    40 modules
+                  </p>
+                  <p>
+                    <BsDownload />
+                    207 sales
+                  </p>
+                </span>
+
+                <span className="course-card-f1">
+                  <button>Enroll</button>
+                </span>
+              </span>
+            </span>
+
+            <span className="course-cont">
+              <div />
+              <span>
+                <span className="course-card-header">
+                  <p>UI/UX Design</p>
+                  <span>
+                    <FaStar />
+                    <p>4.5</p>
+                  </span>
+                </span>
+
+                <span className="course-card-body">
+                  <p>UI/UX Design for Beginners</p>
+                  <p>$200</p>
+                </span>
+
+                <span className="course-card-foot">
+                  <p>
+                    <AiOutlineClockCircle />
+                    50hr 30min
+                  </p>
+                  <p>
+                    <BiVideo />
+                    40 modules
+                  </p>
+                  <p>
+                    <BsDownload />
+                    207 sales
+                  </p>
+                </span>
+
+                <span className="course-card-f1">
+                  <button>Enroll</button>
+                </span>
+              </span>
+            </span>
+
+            <span className="course-cont">
+              <div />
+              <span>
+                <span className="course-card-header">
+                  <p>UI/UX Design</p>
+                  <span>
+                    <FaStar />
+                    <p>4.5</p>
+                  </span>
+                </span>
+
+                <span className="course-card-body">
+                  <p>UI/UX Design for Beginners</p>
+                  <p>$200</p>
+                </span>
+
+                <span className="course-card-foot">
+                  <p>
+                    <AiOutlineClockCircle />
+                    50hr 30min
+                  </p>
+                  <p>
+                    <BiVideo />
+                    40 modules
+                  </p>
+                  <p>
+                    <BsDownload />
+                    207 sales
+                  </p>
+                </span>
+
+                <span className="course-card-f1">
+                  <button>Enroll</button>
+                </span>
+              </span>
+            </span>
           </div>
 
           <div className="section-foot">
