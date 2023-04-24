@@ -171,10 +171,14 @@
   font-weight: bold;
   letter-spacing: 0.1rem;
   font-size: 1.5rem;
-  /* border-top-right-radius: 12.5px;
-  border-bottom-right-radius: 12.5px;
-  border-bottom-left-radius: 12.5px;
-  border-top-left-radius: 2.5px; */
+}
+
+#careers-3 {
+  border: thin solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 @media only screen and (max-width: 767px) and (min-width: 480px) {

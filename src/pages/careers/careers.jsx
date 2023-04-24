@@ -135,8 +135,22 @@ export default function Careers() {
       </div>
 
       <section id="careers-3">
-        
+        <h3>Job Alert</h3>
+        <p>
+          Whether you are just getting started in you career or want to advance,
+          create an alert to get notified of open roles.
+        </p>
+
+        <form>
+          <input type="file" placeholder="Enter yout resume." />
+
+          <span>
+            <input type="text" />
+          </span>
+          <button type="submit">Submit</button>
+        </form>
       </section>
+      
     </main>
   );
 }
