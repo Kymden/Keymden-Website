@@ -1,6 +1,48 @@
 import "./services.css";
 
+let courses = [
+  {
+    name: "Machine Learning",
+    description:
+      "Machine learning is a field of study that focuses on developing algorithms and statistical models that enable computer systems to learn from and make predictions or decisions based on data. This course covers the fundamentals of machine learning, including supervised and unsupervised learning, neural networks, and deep learning.",
+    tags: ["Online", "Instructor-led", "Certification"],
+  },
+  {
+    name: "Frontend Development",
+    description:
+      "Frontend development involves building user interfaces and experiences for websites and web applications. This course covers HTML, CSS, and JavaScript, as well as popular frontend frameworks such as React and Angular. Students will learn how to design responsive and accessible web pages and applications.",
+    tags: ["Online", "Instructor-led", "Industry-based"],
+  },
+  {
+    name: "Backend Development",
+    description:
+      "Backend development involves building the server-side components of web applications, including databases, APIs, and server-side logic. This course covers programming languages such as Python and Ruby, as well as frameworks such as Node.js and Django. Students will learn how to build scalable and maintainable web applications.",
+    tags: ["Online", "Instructor-led", "Certification"],
+  },
+  {
+    name: "Statistical Packages",
+    description:
+      "Statistical packages are software applications that are used for statistical analysis and data visualization. This course covers popular statistical packages such as R and SAS, as well as data analysis techniques such as regression analysis, hypothesis testing, and data visualization. Students will learn how to use statistical packages to analyze and visualize data.",
+    tags: ["Online", "Instructor-led", "Industry-based"],
+  },
+];
+
 export default function Services() {
+  function CourseContainer({ name, description, tags }) {
+    return (
+      <span className="course-cont">
+        <h4>{name}</h4>
+        <p>{description}</p>
+        <span>
+          {tags.map((tag, index) => (
+            <p key={index}>{tag}</p>
+          ))}
+        </span>
+        <button>Enroll</button>
+      </span>
+    );
+  }
+  
   return (
     <main id="services">
       <section id="services-1">
@@ -25,7 +67,24 @@ export default function Services() {
           </p>
 
           <div className="section-info">
-            <span></span>
+            {/* <span className="course-cont">
+              <h4>Machine Learning</h4>
+              <p></p>
+              <span></span>
+              <button>Enroll</button>
+            </span> */}
+            {courses.map((course, index) => (
+              <CourseContainer
+                key={index}
+                name={course.name}
+                description={course.description}
+                tags={course.tags}
+              />
+            ))}
+
+            {/* <CourseContainer name={"Machine Learning"} />
+            <CourseContainer />
+            <CourseContainer /> */}
           </div>
 
           <div className="section-foot">
