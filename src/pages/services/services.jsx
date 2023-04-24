@@ -140,7 +140,7 @@ export default function Services() {
               </span>
             </span>
 
-            <span className="course-cont">
+            {/* <span className="course-cont">
               <div />
               <span>
                 <span className="course-card-header">
@@ -175,7 +175,7 @@ export default function Services() {
                   <button>Enroll</button>
                 </span>
               </span>
-            </span>
+            </span> */}
           </div>
 
           <div className="section-foot">
@@ -208,7 +208,7 @@ export default function Services() {
           Learn how you can partner with them.
         </p>
       </section>
-  
+
     </main>
   );
 }

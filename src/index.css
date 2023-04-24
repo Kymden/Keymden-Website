@@ -21,9 +21,11 @@
 }
 
 :root {
-  --primary: #0052cc;
-  --third: #2684ff;
-  --secondary: #ffffff;
+  --primary: #024751;
+  --second: #23d06a;
+  --third: #f9fbfc;
+  --four: #ffefb5;
+  --five: #d0c2f8;
 }
 
 main {
