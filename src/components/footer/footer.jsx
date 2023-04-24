@@ -15,7 +15,7 @@ export default function Footer() {
         </span>
 
         <form>
-          <input type="text" />
+          <input type="text" placeholder="Enter email address" />
           <button type="submit">Subscribe</button>
         </form>
       </div>

@@ -50,6 +50,7 @@ export default function Careers() {
 
         <span className="careers-2-2">
           <button>
+            {/* <FiChevronUpRight /> */}
             <p>Apply</p>
           </button>
         </span>
@@ -133,7 +134,9 @@ export default function Careers() {
         </span>
       </div>
 
-      <section id="careers-3"></section>
+      <section id="careers-3">
+        
+      </section>
     </main>
   );
 }
