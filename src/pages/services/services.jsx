@@ -13,12 +13,25 @@ export default function Services() {
         </p>
       </section>
 
-      <section className="services-2">
-        <h3>Coding and programming</h3>
-        <p>
-          We believe that code and data is a means to the end. Learn proper
-          probelm solving with us.
-        </p>
+      <section className="services-2" id="services-2">
+        <div className="section-header">
+          <p>1</p>
+        </div>
+        <div className="section-body">
+          <h3>Coding and programming</h3>
+          <p>
+            We believe that code and data is a means to the end. Learn proper
+            probelm solving with us.
+          </p>
+
+          <div className="section-info">
+            <span></span>
+          </div>
+
+          <div className="section-foot">
+            <button>Learn More</button>
+          </div>
+        </div>
       </section>
 
       <section className="services-3">
